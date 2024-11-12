@@ -92,7 +92,8 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/mica/overlay/no-rro
 
 PRODUCT_PACKAGES += \
-    NetworkStackOverlay
+    NetworkStackOverlay \
+    AndroidBlackThemeOverlay
 
 include vendor/mica/config/version.mk
 
