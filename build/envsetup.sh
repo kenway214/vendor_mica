@@ -924,3 +924,6 @@ function fixup_common_out_dir() {
         mkdir -p ${common_out_dir}
     fi
 }
+
+# Bypass API modified validations
+export DISABLE_STUB_VALIDATION=true
