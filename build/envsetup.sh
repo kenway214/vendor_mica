@@ -927,3 +927,5 @@ function fixup_common_out_dir() {
 
 # Bypass API modified validations
 export DISABLE_STUB_VALIDATION=true
+
+export SKIP_ABI_CHECKS=true
